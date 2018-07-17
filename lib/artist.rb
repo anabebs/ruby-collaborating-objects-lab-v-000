@@ -4,5 +4,9 @@ class Artist
     @name =name 
     @songs = [] 
   end 
+  
+  def songs(song)
+    @songs = self.song
+    
 end 
   
